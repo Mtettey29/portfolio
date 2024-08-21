@@ -8,7 +8,7 @@ export const DATA = {
   location: "Dansoman, CA",
   locationLink: "https://www.google.com/maps/place/accra",
   description:
-    "Welcome to My Portfolio. \nUnlock potential, drive results, and foster innovation through collaboration.",
+    "Welcome to My Portfolio. Unlock potential, drive results, and foster innovation through collaboration.",
   summary:
     "I am a versatile professional with a passion for blending technology, data analysis, and profound problem-solving skills to create impactful solutions. Based in Accra, Ghana, my diverse experiences span data analysis, operations management, virtual assistance, and digital marketing strategies.",
   avatarUrl: "/me.png",
@@ -58,7 +58,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:michaeltettey29@gmail.com?",
+        url: "mailto:michaeltettey29@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -77,7 +77,7 @@ export const DATA = {
       start: "August 2024",
       end: "Present",
       description:
-        "Assisted in gathering, cleaning, and preprocessing large datasets from various sources to ensure data accuracy and consistency for analysis. \nConducted exploratory data analysis to uncover patterns, correlations, and insights, using statistical tools and visualization techniques to support decision-making. \nCreated detailed reports and visualizations to communicate findings and recommendations to stakeholders, translating complex data into actionable insights. \nHelped develop and evaluate machine learning models using techniques such as regression, classification, and clustering, and assessed their performance using metrics like accuracy, precision, and recall.",
+        "Assisted in data gathering, cleaning, preprocessing, and exploratory analysis, uncovering patterns and insights to support decision-making. Developed and evaluated machine learning models, assessing performance with metrics like accuracy, precision, and recall, and communicated findings through detailed reports and visualizations.",
     },
     {
       company: "Wilena Nursery And Preparatory School",
@@ -89,92 +89,93 @@ export const DATA = {
       start: "February 2024",
       end: "August 2024",
       description:
-        "	Enhanced student engagement through the creation of interactive lesson plans, resulting in improved academic performance and classroom participation. \nEnsured the safety of all students by implementing emergency response procedures, resulting in a secure and nurturing environment
-●	Provided constructive feedback to students based on thorough assessment, resulting in improved academic growth and a deeper understanding of subject matter.
-●	 Strengthened educational partnerships by maintaining clear communication with students, parents, and colleagues, fostering a cohesive and productive learning environment
-",
+        "	Enhanced student engagement and academic performance through interactive lesson plans and constructive feedback, while ensuring a safe and nurturing environment by implementing emergency response procedures. Strengthened educational partnerships by maintaining clear communication with students, parents, and colleagues, fostering a cohesive and productive learning environment.",
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
+      company: "Ghana Statistical Service",
+      href: "https://statsghana.gov.gh/",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      location: "Korle Klottey, Accra",
+      title: "Field Officer",
+      logoUrl: "/public/GSS.svg",
+      start: "January 2024",
+      end: "February 2024 2024",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Successfully covered all assigned establishments as a field enumerator for the 2024 Integrated Business Establishment Survey, contributing to comprehensive and accurate survey results. Conducted over 100 interviews, partnered with colleagues to overcome challenges, and implemented quality control measures to ensure 100% data accuracy, enhancing the credibility of research findings.",
     },
     {
-      company: "Splunk",
-      href: "https://splunk.com",
+      company: "Amata Cosmetics Ltd",
+      href: "https://www.amatacosmetics.com/",
       badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
+      location: "Makola, Accra",
+      title: "Sales Associate",
+      logoUrl: "/public/Amata.svg",
+      start: "July 2021",
+      end: "December 2023",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Secured new client meetings, increasing sales opportunities and driving customer acquisition and retention through targeted sales strategies based on performance analysis. Oversaw warehousing and distribution operations, improving inventory accuracy, reducing stockouts, and maintaining precise documentation to ensure smooth operations and increased customer satisfaction.",
     },
     {
-      company: "Lime",
-      href: "https://li.me/",
+      company: "Gold Coast Restaurant Ltd",
+      href: "https://tgcrestaurant.com/",
       badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
+      location: "Cantonments, Accra",
+      title: "Stores & Operations Officer",
+      logoUrl: "/public/gc.svg",
+      start: "January 2021",
+      end: "June 2021",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "Compiled and submitted detailed reports on consumable materials, enhancing inventory management and cost-effective procurement strategies. Oversaw kitchen and production operations, directed administrative functions, and implemented inventory control measures to optimize workflow, resource utilization, and organizational productivity.",
     },
     {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
+      company: "Nericks Interiors Ltd",
+      href: "https://web.facebook.com/people/Nericks-Interiors-Ltd/100054605882352/?_rdc=1&_rdr",
       badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
+      location: "Mallam, Accra",
+      title: "Sales Executive",
+      logoUrl: "/public/nericks.svg",
+      start: "July 2020",
+      end: "January 2021",
+      description:
+        "Facilitated seamless communication with clients, providing strategic counsel and innovative product solutions, while driving sales through targeted marketing strategies that increased revenue and market penetration. Produced comprehensive marketing reports with actionable insights and executed precise installations of interior decor items, ensuring impeccable craftsmanship and client satisfaction.",
+    },
+    {
+      company: "Gold Coast Restaurant Ltd",
+      href: "https://tgcrestaurant.com/",
+      badges: [],
+      location: "Cantonments, Accra",
+      title: "Stores & Operations Officer",
+      logoUrl: "/public/gc.svg",
       start: "May 2017",
-      end: "August 2017",
+      end: "June 2020",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "Compiled and submitted detailed reports on consumable materials, enhancing inventory management and cost-effective procurement strategies. Oversaw kitchen and production operations, directed administrative functions, and implemented inventory control measures to optimize workflow, resource utilization, and organizational productivity.",
     },
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      school: "Methodist University Ghana",
+      href: "https://mug.edu.gh/",
+      degree: "Bachelors of Science Degree in Information Technology(BSC)",
+      logoUrl: "/public/dg6vilyf.png",
+      start: "2022",
+      end: "2025",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
+      school: "Abuakwa State College",
+      href: "https://www.bing.com/ck/a?!&&p=fa1937b8ebb7d0c8JmltdHM9MTcyNDE5ODQwMCZpZ3VpZD0wNmRmMDVlNy0xY2MwLTZiYmMtMjg5MS0xNjYzMWRiNzZhZGMmaW5zaWQ9NTIwNA&ptn=3&ver=2&hsh=3&fclid=06df05e7-1cc0-6bbc-2891-16631db76adc&psq=abuakwa+state+college&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQWJ1YWt3YV9TdGF0ZV9Db2xsZWdl&ntb=1",
+      degree: "West African Senior Certificate Examination (WASSCE)_Business",
+      logoUrl: "public/abusco.svg",
+      start: "2013",
       end: "2016",
+    },
+    {
+      school: "St. Clare Preparatory and JHS",
+      href: "https://web.facebook.com/people/Saint-Clare-Preparatory-and-JHz/100069520353346/?_rdc=1&_rdr",
+      degree: "Basic Education Certificate Examination",
+      logoUrl: "public/stclare.svg",
+      start: "2004",
+      end: "2013",
     },
   ],
   projects: [
@@ -687,3 +688,24 @@ export const DATA = {
     },
   ],
 } as const;
+import React from 'react';
+
+const Resume: React.FC = () => {
+  const handleDownload = () => {
+    // Logic to download the CV file
+    // Replace 'cv.pdf' with the actual file name and path
+    const downloadLink = document.createElement('a');
+    downloadLink.href = 'public/Michael Tettey CV.pdf';
+    downloadLink.download = 'Michael Tettey CV.pdf';
+    downloadLink.click();
+  };
+
+  return (
+    <div>
+      <h1>Resume</h1>
+      <button onClick={handleDownload}>Download CV</button>
+    </div>
+  );
+};
+
+export default Resume;
