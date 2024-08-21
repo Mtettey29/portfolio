@@ -2,98 +2,97 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Michael Tettey",
+  initials: "MT",
+  url: "https://mtettey.io",
+  location: "Dansoman, CA",
+  locationLink: "https://www.google.com/maps/place/accra",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Welcome to My Portfolio. \nUnlock potential, drive results, and foster innovation through collaboration.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I am a versatile professional with a passion for blending technology, data analysis, and profound problem-solving skills to create impactful solutions. Based in Accra, Ghana, my diverse experiences span data analysis, operations management, virtual assistance, and digital marketing strategies.",
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "Data Analysis: Transforming raw data into actionable insights.",
+    "Operations Management: Streamlining processes for efficiency and effectiveness.",
+    "Technical Expertise: Proficient in network and software engineering, as well as digital marketing.",
+    "Adaptability: Thriving in fast-paced environments with a strong work ethic and excellent communication skills.",
+    "Languages: Python, Java, C, HTML/CSS, JavaScript, SQL",
+    "Developer Tools: VS Code, Eclipse, Google Cloud Platform, Android Studio",
+    "Technologies/Frameworks: Linux, Jenkins, GitHub, JUnit, WordPress, React"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "michaeltettey29@gmail.com",
+    tel: "+233544157938",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/MTettey29",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://linkedin.com/in/michaeltettey",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/papa_nhee",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/@michaeltettey745",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:michaeltettey29@gmail.com?",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Excelerate",
+      href: "https://4excelerate.org/",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Data Analyst",
+      logoUrl: "/public/Excele.png",
+      start: "August 2024",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Assisted in gathering, cleaning, and preprocessing large datasets from various sources to ensure data accuracy and consistency for analysis. \nConducted exploratory data analysis to uncover patterns, correlations, and insights, using statistical tools and visualization techniques to support decision-making. \nCreated detailed reports and visualizations to communicate findings and recommendations to stakeholders, translating complex data into actionable insights. \nHelped develop and evaluate machine learning models using techniques such as regression, classification, and clustering, and assessed their performance using metrics like accuracy, precision, and recall.",
     },
     {
-      company: "Shopify",
+      company: "Wilena Nursery And Preparatory School",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      href: "https://www.linkedin.com/in/henrietta-ababio-3500855a/?originalSubdomain=gh",
+      location: "Dansoman, Accra",
+      title: "Teacher",
+      logoUrl: "/public/wilena.svg",
+      start: "February 2024",
+      end: "August 2024",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "	Enhanced student engagement through the creation of interactive lesson plans, resulting in improved academic performance and classroom participation. \nEnsured the safety of all students by implementing emergency response procedures, resulting in a secure and nurturing environment
+●	Provided constructive feedback to students based on thorough assessment, resulting in improved academic growth and a deeper understanding of subject matter.
+●	 Strengthened educational partnerships by maintaining clear communication with students, parents, and colleagues, fostering a cohesive and productive learning environment
+",
     },
     {
       company: "Nvidia",
